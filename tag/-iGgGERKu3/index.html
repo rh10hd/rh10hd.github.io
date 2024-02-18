@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+<meta name="theme-color" content="#000">
+<title>2H ISLAND</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1708245188388">
+<link rel="stylesheet" href="/media/css/mist.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.loli.net/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/default.css"
+  rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/blue/pace-theme-material.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="/styles/main.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/media/js/jquery.js"></script>
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="mist">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper  " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="">
+              <span class="logo-line-before">
+                <i class=""></i>
+              </span>
+              <span class="main-title">2H ISLAND</span>
+              <span class="logo-line-after">
+                <i class=""></i>
+              </span>
+            </a>  
+          
+        </div>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-globe"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives" target="_self">
+                  <i class="fa fa-globe"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags" target="_self">
+                  <i class="fa fa-globe"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about" target="_self">
+                  <i class="fa fa-globe"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout bg-color mist">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper ">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">rhlohd</p>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">5</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">4</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+  
+
+  
+
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'mist';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          日常
+          <small class="language" data-lan="tag">标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://rh10hd.github.io/post/zui-jin-ji-tian-dou-zai-gan-sha-ne/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              01-07
+              <small>最近几天都在干啥呢？</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              01-03
+              <small>新年礼物及一些碎碎念</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <center id="runTimeBox">
+      已运行:<span id="run_time"></span>
+    </center>
+    <span id="busuanzi_container_site_pv">浏览数:<span id="busuanzi_value_site_pv"></span> 次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">访客数:<span id="busuanzi_value_site_uv"></span> 人</span>
+
+    <script>
+      BirthDay = new Date('23/12/31');
+      if (BirthDay.getTime()) {
+        function runTime() {
+          str = "";
+          today = new Date();
+          timeold = today.getTime() - BirthDay.getTime();
+          msPerDay = 24 * 60 * 60 * 1000;
+          e_daysold = timeold / msPerDay;
+          daysold = Math.floor(e_daysold);
+          str += daysold + "天";
+          return str;
+        }
+        setInterval(function () {
+          $("#run_time").html(runTime());
+        }, 1000);
+      } else {
+        document.querySelector('.footer').removeChild(document.querySelector('#runTimeBox'));
+      }
+    </script>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+    
+      <div class="drawer-box left" id="drawer_box">
+        <span class="muse-line muse-line-first"></span>
+        <span class="muse-line muse-line-middle"></span>
+        <span class="muse-line muse-line-last"></span>
+      </div>
+      
+        <div class="mist back-to-top" id="back_to_top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+        
+          
+            
+              <div class="bg-img">
+                <img src="/media/images/custom-bgImg.jpg" />
+              </div>
+              
+                
+                  
+                        
+</div>
+<script>
+  let sideBarOpen = "sidebar-open";
+  let body = document.body;
+  let back2Top = document.querySelector("#back_to_top"),
+    back2TopText = document.querySelector("#back_to_top_text"),
+    drawerBox = document.querySelector("#drawer_box"),
+    rightSideBar = document.querySelector(".sidebar"),
+    viewport = document.querySelector("body");
+
+  function scrollAnimation(currentY, targetY) {
+    let needScrollTop = targetY - currentY;
+    let _currentY = currentY;
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10);
+      _currentY += dist;
+      window.scrollTo(_currentY, currentY);
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY);
+      } else {
+        window.scrollTo(_currentY, targetY);
+      }
+    }, 1);
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener("scroll", function (e) {
+    let percent =
+      (document.scrollingElement.scrollTop /
+        (document.scrollingElement.scrollHeight -
+          document.scrollingElement.clientHeight)) *
+      100;
+    if (percent > 1 && !back2Top.classList.contains("back-top-active")) {
+      back2Top.classList.add("back-top-active");
+    }
+    if (percent == 0) {
+      back2Top.classList.remove("back-top-active");
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  let hasCacu = false;
+  window.addEventListener("resize", function (e) {
+    calcuHeight();
+  });
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (
+      (!hasCacu && back2Top.classList.contains("pisces")) ||
+      back2Top.classList.contains("gemini")
+    ) {
+      let sideBar = document.querySelector(".sidebar");
+      let navUl = document.querySelector("#site_nav");
+      sideBar.style =
+        "margin-top:" + (navUl.offsetHeight + navUl.offsetTop + 15) + "px;";
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false,
+    MOTION_TIME = 300,
+    RIGHT_MOVE_DIS = "320px";
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll(".right-motion");
+    let right = drawerBox.classList.contains("right");
+
+    let transitionDir = right
+      ? "transition.slideRightIn"
+      : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingRight: "0px",
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingLeft: "0px",
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      jQuery.Velocity(rightSideBar, "stop");
+      jQuery.Velocity(viewport, "stop");
+      jQuery.Velocity(rightMotions, "stop");
+      if (open) {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: RIGHT_MOVE_DIS,
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, transitionDir, {});
+            },
+          }
+        );
+        jQuery.Velocity(viewport, openProp, {
+          duration: MOTION_TIME,
+        });
+      } else {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: "0px",
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, {
+                opacity: 0,
+              });
+            },
+          }
+        );
+        jQuery.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME,
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle("muse-line");
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    };
+  }
+
+  // 链接跳转
+  let newWindow = "true";
+  if (newWindow === "true") {
+    let links = document.querySelectorAll(".post-body a");
+    links.forEach((item) => {
+      if (!item.classList.contains("btn")) {
+        item.setAttribute("target", "_blank");
+      }
+    });
+  }
+
+  let faSearch = document.querySelector("#fa_search");
+  faSearch &&
+    faSearch.addEventListener("click", function () {
+      document.querySelector("#search_mask").style = "";
+    });
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+  // 离开当前页title变化
+  var leaveTitle = "下次再见";
+  var normal_title = document.title;
+  if (leaveTitle) {
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState == "hidden") {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="/media/css/jquery.fancybox.css" />
+<script src="/media/js/jquery.fancybox.js"></script>
+
+<script>
+  let images = document.querySelectorAll(".section img");
+  images.forEach((image) => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement("a");
+    aelem.href = image.src;
+    aelem.dataset["fancybox"] = "images";
+    aelem.dataset["rel"] = "fancybox-button";
+    aelem.classList.add("fancybox");
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  });
+</script>
+  </div>
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/3PpsKTB-q/"" data-c="
+          &lt;p&gt;远离直女，不要被直女吊着。不要患得患失，不要内耗。&lt;/p&gt;
+">假期结束后第一天的感想</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/qLuoHTI65/"" data-c="
+          &lt;p&gt;搜了好久，终于发现一个可以优雅使用Cloudinary的&lt;a href=&#34;https://github.com/uday-samsani/obsidian-cloudinary&#34;&gt;&lt;strong&gt;插件&lt;/strong&gt;&lt;/a&gt;，可以直接在Ob里面上传图片到Cloudinary并且返回URL。&lt;/p&gt;
+&lt;p&gt;设置也很简单，只需要设置cloud name, cloud upload template和cloud upload folder就完事了。&lt;/p&gt;
+&lt;p&gt;实际测试了一下，速度很快。以后就安心使用Obsidian写博客了😌不用窗口来回切换复制粘贴了。&lt;/p&gt;
+">Obsidian-Cloudinary</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/Sc_pN9-yT/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;主要就是盘点和记录自己最近都在玩什么游戏，进度如何，也给自己一点压力快点玩完游戏。&lt;s&gt;又不是写论文，为什么还有DDL啊！&lt;/s&gt; 顺便写一点评价和吐槽，喜欢的游戏再考虑写点攻略好了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;1月8日&#34;&gt;1月8日&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;dicey-dungeons&#34;&gt;Dicey Dungeons&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704790006/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/dicey-dungeons_wdqapw.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;进度遥遥无期目前成就只解锁了7个游玩时长13h50m&#34;&gt;进度：遥遥无期，目前成就只解锁了7个，游玩时长13h50m。&lt;/h4&gt;
+&lt;p&gt;&lt;font size =&#34;2&#34;&gt;(只统计了Xbox平台，有时候也会用手机玩。)&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;中文名叫骰子地下城，卡牌rougelite，捎带一些Deck-building，上手容易，一共有6个角色可供选择，目前有两个免费更新的DLC，XGP可游玩，当然还是用ns和手机玩最爽了，因为可以躺着玩。&lt;/p&gt;
+&lt;p&gt;是我的卡牌入坑作，我以前觉得卡牌非常无聊，只喜欢打打杀杀的“爽游”，尝试着玩Slay the Spire，也实在get不到乐趣。直到有一次无聊的时候在XGP库中乱逛，发现了Dicey Dungeons，就下载来试玩了一下，没想到一发不可收拾，开启了我的打牌生涯。重新打开Slay the Spire，发现打牌也挺有意思的，甚至有一段时间疯狂购入各种卡牌游戏。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;攻略就先放放吧哈哈哈哈，什么时候能通关都是大问题。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;为了能随时玩，我特意买了iOS版，结果发现一个大问题，它居然不能iCloud同步，天知道我看每个角色的开头动画看了几回。而且上一次更新居然是一年前。&lt;/p&gt;
+&lt;h2 id=&#34;gears-tactics&#34;&gt;Gears Tactics&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704790005/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/1_2qndiRW3PJpGipxwPGkD2A_n6zgkh.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;进度第一幕第三章&#34;&gt;进度：第一幕第三章&lt;/h4&gt;
+&lt;p&gt;中文名叫战争机器：战术小队，看名字就知道是战争机器的系列作。只不过改成了战棋+RTS。&lt;/p&gt;
+&lt;p&gt;战争机器是我的射击游戏入坑作，本来一开始我很抗拒玩战术小队的，因为不是射击游戏，我实在提不起兴趣。但是看了很多的测评以后，我决定还是试试。&lt;s&gt;XGP又不用钱，干嘛不玩！&lt;/s&gt; 玩了以后发现，居然还不错，并且在对于手柄的优化做的非常好，果然是Xbox的第一方游戏，微软还是下了功夫的。也没有阉割手柄的震动，要知道射击游戏最爽的就是手柄的震动了！&lt;/p&gt;
+&lt;p&gt;看到这个进度就知道我还没玩多少，立个flag：我过年前通关这款游戏。&lt;/p&gt;
+&lt;h2 id=&#34;minekos-night-market&#34;&gt;Mineko&#39;s Night Market&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704790006/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/2x1_NSwitch_MinekosNightMarket_coeirw.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;进度刚开始游玩时间2h56min成就只解锁了2个&#34;&gt;进度：（刚开始？）游玩时间：2h56min，成就只解锁了2个。&lt;/h4&gt;
+&lt;p&gt;中文名叫未音子的夜市，很放松很治愈的游戏，晚上只留着一盏小灯，戴着耳机玩真的非常舒服。还能在里面撸猫，谁不喜欢啊！说起来，我还没开始在夜市卖东西🤣得找个时间去看看了。&lt;/p&gt;
+&lt;p&gt;玩这款游戏我会想到很久以前玩的Knights and Bikes，画风类似，总体也是非常温馨治愈的感觉。如果也能像前者有双人闯关模式就好了。&lt;/p&gt;
+&lt;p&gt;通关？不存在的，我估计我能玩到25年。&lt;/p&gt;
+">目前在玩的游戏以及进度</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/zui-jin-ji-tian-dou-zai-gan-sha-ne/"" data-c="
+          &lt;h1 id=&#34;1月7日&#34;&gt;1月7日&lt;/h1&gt;
+&lt;p&gt;这几天一直在摸索markdown，很奇怪的是在&lt;strong&gt;Markdown语法测试&lt;/strong&gt;（已经删除了）那一篇可以区分一级二级三级标题，但是在&lt;a href=&#34;https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/&#34;&gt;&lt;strong&gt;手帐&lt;/strong&gt;&lt;/a&gt;那篇文只能显示三级标题，也不知道哪里出现了问题。还是继续努力摸索吧。&lt;/p&gt;
+&lt;p&gt;因为刚弄了博客，整个人还是沉浸于捣鼓博客的新奇中，最后发现还是朴素风最适合自己了。&lt;s&gt;其实就是不会装饰博客&lt;/s&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最近天气真的很好，每天都出去晒晒太阳，心情也变得好好。难怪之前纪录片里说经常宅在家里无精打采容易变得更加丧。虽然每天散步去的地方都一样，但都会有不一样的感受，遇到的人也不一样，这种感觉好奇妙。&lt;s&gt;也有可能是我不用上班，所以感觉很奇妙吧哈哈哈&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;在超市里闲逛的时候，突然收到手机的推送，点进去看发现是朋友给我寄快递了，期待的心情又被勾起来了。等了好久的礼物终于要来了吗？&lt;/p&gt;
+&lt;p&gt;回家的路上买了半只烤鸭，试试好不好吃。还有这两天因为吃口香糖太多了，嚼的肌肉都有点痛了，不能再嚼了啊！！！！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今天翻了翻之前存的韩语每日打卡，最终确定了每天打卡的内容，希望自己真的能坚持吧！也能坚持经常来博客更新东西。&lt;div class=&#34;shake&#34;&gt;想起来我还有王陆语料库一直没看啊！&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;还有也整理了备忘录里的东西，果然我就是最喜欢整理和收拾东西了。发现自己真的囤了很多电视剧、电影还有书没有看，24年能不能清完呢？先立个目标再说。&lt;/p&gt;
+&lt;p&gt;昨晚躺在床上玩Dicey Dungeons，一看时间已经是12点半了。在想有空不要也写一篇攻略什么的好了？不过就我这个进度什么时候才能通关呢？&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1月8日&#34;&gt;1月8日&lt;/h1&gt;
+&lt;p&gt;突然又可以正常显示一级二级标题了，真是太奇怪了🤣可能gridea有自己的脾气吧？？&lt;/p&gt;
+&lt;p&gt;但是现在另一个问题又来了，用html改好图片以后，gridea预览看不了了😫还是专心用Typora吧&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1月9日&#34;&gt;1月9日&lt;/h1&gt;
+&lt;p&gt;前两天念叨的礼物终于从朋友那里收到了，好久好久没有这么开心幸福过了。&lt;/p&gt;
+">最近几天都在干啥呢？</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/about/"" data-c="
+          &lt;ul&gt;
+&lt;li&gt;老年人还在摸索和建设博客中&lt;/li&gt;
+&lt;li&gt;不定期冒泡，喜欢自说自话，如果有认识的朋友看到了，请不要戳穿我。&lt;/li&gt;
+&lt;li&gt;喜欢游戏，手持Xbox和NS，&lt;span style=&#34;background-color: yellow&#34;&gt;FPS毒唯 &lt;/span&gt;（最爱光环和TTF2），健身环狂热爱好者，二周目进行中。&lt;/li&gt;
+&lt;li&gt;现在沉迷于&lt;a href=&#34;https://rh10hd.github.io/post/Sc_pN9-yT/&#34;&gt;&lt;strong&gt;Dicey Dungeons&lt;/strong&gt;&lt;/a&gt;，努力寻找类似的游戏。&lt;/li&gt;
+&lt;li&gt;喜欢KPOP女团，目前在努力学韩语。&lt;/li&gt;
+&lt;/ul&gt;
+">ABOUT ME</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/"" data-c="
+          &lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+&lt;!-- more --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;折腾又研究了几天，终于把博客弄好了，先把plog上传来了🤣就当作是第一篇博文吧，不过说实话在写这篇东西的时候我还在想网站的名字到底要叫什么。为什么感觉大家取名字都很容易，取的名字也很有意思？而我却纠结犹豫了好几天都没有想到。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;现在更新的Plog是做给朋友的新年礼物，很多内容都取材自我们的日常，算是友情回忆录吗？对方看了以后调侃是“我们俩之间甜甜蜜蜜的回忆录”。其实很早之前我就想着要给她准备新年礼物，但是苦恼了很久都没想到要送什么，我的idea早在第一次准备礼物的时候就已经透支完毕了。而且对方也让我不要偷偷送东西了，所以想来想去，我直接放弃了要送礼物的想法，一句祝贺应该就可以了。&lt;/p&gt;
+&lt;p&gt;27号的早上我照例在刷豆瓣，看到一个&lt;a href=&#34;https://www.douban.com/group/topic/272775623/?_i=3690539kfWteqx&#34;&gt;&lt;strong&gt;帖子&lt;/strong&gt;&lt;/a&gt;，楼主展示自己17岁生日从朋友那里收到的绘本，这时微信突然弹出了朋友的消息，我们就顺势聊起来了，她跟我说这个月上班快不行了，觉得特别累。我脑子里蹦出一个想法，我是不是也能做一个绘本送给对方呢？既可以哄她开心，也可以当作新年礼物。&lt;/p&gt;
+&lt;p&gt;我立刻把这个想法告诉了我的游戏同好，对方觉得不错，于是我就开始构思，非常感谢同好给我提出的很多想法和意见，以及给予的肯定和鼓励。没有她的帮忙，我估计我肯定搞不定这东西。&lt;/p&gt;
+&lt;h1 id=&#34;手帐&#34;&gt;手帐&lt;/h1&gt;
+&lt;p&gt;一开始就是想做绘本，但是尝试了画画之后发现画画很难，同好跟我说可以临摹，我尝试了临摹之后发现也很难，没办法，我真的完全不会画画。我想到可以做手帐，因为朋友本身也喜欢手帐，我这样正好投其所好。不得不说，初版手帐真的很丑很简略，现在想起来都觉得很搞笑，不敢想朋友如果收到会有多无语。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0821_ler7gi.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;开始制作的时候光是封面和标题我就想了很久，和同好一直讨论，同好给我想了很多乱七八糟的名字。我突然想到可以使用小豆泥的漫画书名——《世界就是绕着猫打转》，很契合自己与朋友之间的关系。我常常会说我是小豆泥，而她是Nobeko(小豆泥的主人)，也以小豆泥和nobeko为主题。&lt;/p&gt;
+&lt;p&gt;里面的图案就是当初准备当成绘本的封面，当时做好以后发给同好看，她说很可爱，真的太给面子了。等我决定要做成手帐的时候，想要更改但是一直没有好的idea。后来收集素材的时候发现了Airdrop样式的图，发现还不错，也很符合我想要给朋友发东西的心思，就立刻拿来用了。于是才有了现在的封面。&lt;/p&gt;
+&lt;p&gt;做的时候特别赶，因为打算在跨年的零点送给对方，所以很焦虑，尤其是到30号的晚上我居然还只是做了个不伦不类的简略版手帐，同好安慰我说对方收到你的心意也会很感动的，可我还是觉得不太行。31号的早上醒来，我突然想到，我可以做成plog，简单好做又不失好看。这样才有了最终版的plog。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0826_waumj6.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;手机是找素材的时候存的，里面的图片用的是朋友的Spotify年度歌手的页面。算是个小彩蛋？也不知道她有没有发现。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0816_epjphv.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;我们熟起来完全是因为游戏和KPOP，很恰好的是我们都喜欢NewJeans，所以做的时候就决定要以复古风为主要基调，INS界面就用了最古老的xp系统的style。也找了phoning的图，不过她没用过phoning，大概也不知道是什么样的。不得不吐槽一句。抠图是真的麻烦又累。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0832_sm2ufr.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;翻了翻聊天记录，发现出现频率最高的就是图里的对话🤣忘了之前在哪里看到的，很多痛苦本来就是外人无法帮忙排解的，旁人只能安慰，我没办法给她一个抱抱，所以我只希望每一次聊天的时候都能让她感到有一些治愈。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0833_wioxf2.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;I&#39;m fine这个图是很早之前从X上存的，当时看到就一眼相中，没想到现在还能用上。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0814_tvjrp7.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;Dicey Dungeons真的太好玩了哈哈哈哈，手机上也买了，就为了随时随地来一局 ，但是成就实在太难达成了。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0835_omsjs2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;跟着b站的up主画的，视频时长只有15分钟，但我跟着画了一两个小时，我是不是得好好学画画了？&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0838_cmbabm.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;背景是Windows的画图程序，复古味十足。也不知道现在的Windows系统还有没有了。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&#34;2&#34;&gt;倒数第二段话是NJ釜山综艺里Minji说的，当时就觉得特别感慨，于是这一次就化用了这段话，但也是我的真心话。想想还是会觉得和朋友的相遇像一场梦一样。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0830_hoea7g.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;送游戏一方面是因为我们是玩游戏认识的，另一方面是朋友不让我再偷偷给她送东西了，所以就送了好评很多，同时也是上次见面在她的愿望单里看到的《NOBODY SAVES THE WORLD》。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/dytqos6vx/image/upload/v1704789699/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0840_gtfojt.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;font size=&#34;2&#34;&gt;这张图也是我在Pinterest上看到的，原本是一个动图，我截了其中一幕当成了结尾图，效果还不错。本来是打算用一些比较文艺的图结束的，但是发现不太符合整体的调性，就还是选择了比较可爱的图片。&lt;/font&gt;&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;准点的时候发给朋友，还闹了点乌龙，她以为是NJ的周边就没仔细看，我看对方没有什么反应还很生气，和同好吐槽，最后忍不住提醒了朋友，她才发现这是专门做给她的plog。所幸我没有因为太生气而直接去睡觉，否则就完全白费这几天掉的头发了🤣&lt;/p&gt;
+&lt;p&gt;尽管做的时候熬夜了好几天，头也很疼，但是看到对方开心的样子，觉得这一切还是很值得的。&lt;/p&gt;
+&lt;p&gt;现在已经开始烦恼下一次送礼物该送什么了。&lt;/p&gt;
+">新年礼物及一些碎碎念</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 200
+    });
+  </script>
+
+
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
+
+
+
+
+
+</html>

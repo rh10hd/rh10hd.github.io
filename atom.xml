@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rh10hd.github.io</id>
+    <title>2H ISLAND</title>
+    <updated>2024-02-18T08:33:30.189Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rh10hd.github.io"/>
+    <link rel="self" href="https://rh10hd.github.io/atom.xml"/>
+    <subtitle> </subtitle>
+    <logo>https://rh10hd.github.io/images/avatar.png</logo>
+    <icon>https://rh10hd.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 2H ISLAND</rights>
+    <entry>
+        <title type="html"><![CDATA[假期结束后第一天的感想]]></title>
+        <id>https://rh10hd.github.io/post/3PpsKTB-q/</id>
+        <link href="https://rh10hd.github.io/post/3PpsKTB-q/">
+        </link>
+        <updated>2024-02-18T08:32:17.000Z</updated>
+        <content type="html"><![CDATA[<p>远离直女，不要被直女吊着。不要患得患失，不要内耗。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian-Cloudinary]]></title>
+        <id>https://rh10hd.github.io/post/qLuoHTI65/</id>
+        <link href="https://rh10hd.github.io/post/qLuoHTI65/">
+        </link>
+        <updated>2024-01-10T08:51:03.000Z</updated>
+        <content type="html"><![CDATA[<p>搜了好久，终于发现一个可以优雅使用Cloudinary的<a href="https://github.com/uday-samsani/obsidian-cloudinary"><strong>插件</strong></a>，可以直接在Ob里面上传图片到Cloudinary并且返回URL。</p>
+<p>设置也很简单，只需要设置cloud name, cloud upload template和cloud upload folder就完事了。</p>
+<p>实际测试了一下，速度很快。以后就安心使用Obsidian写博客了😌不用窗口来回切换复制粘贴了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[目前在玩的游戏以及进度]]></title>
+        <id>https://rh10hd.github.io/post/Sc_pN9-yT/</id>
+        <link href="https://rh10hd.github.io/post/Sc_pN9-yT/">
+        </link>
+        <updated>2024-01-08T12:50:18.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>主要就是盘点和记录自己最近都在玩什么游戏，进度如何，也给自己一点压力快点玩完游戏。<s>又不是写论文，为什么还有DDL啊！</s> 顺便写一点评价和吐槽，喜欢的游戏再考虑写点攻略好了。</p>
+</blockquote>
+<h1 id="1月8日">1月8日</h1>
+<hr>
+<h2 id="dicey-dungeons">Dicey Dungeons</h2>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704790006/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/dicey-dungeons_wdqapw.jpg" alt="" loading="lazy"></figure>
+<h4 id="进度遥遥无期目前成就只解锁了7个游玩时长13h50m">进度：遥遥无期，目前成就只解锁了7个，游玩时长13h50m。</h4>
+<p><font size ="2">(只统计了Xbox平台，有时候也会用手机玩。)</font></p>
+<p>中文名叫骰子地下城，卡牌rougelite，捎带一些Deck-building，上手容易，一共有6个角色可供选择，目前有两个免费更新的DLC，XGP可游玩，当然还是用ns和手机玩最爽了，因为可以躺着玩。</p>
+<p>是我的卡牌入坑作，我以前觉得卡牌非常无聊，只喜欢打打杀杀的“爽游”，尝试着玩Slay the Spire，也实在get不到乐趣。直到有一次无聊的时候在XGP库中乱逛，发现了Dicey Dungeons，就下载来试玩了一下，没想到一发不可收拾，开启了我的打牌生涯。重新打开Slay the Spire，发现打牌也挺有意思的，甚至有一段时间疯狂购入各种卡牌游戏。</p>
+<p><s>攻略就先放放吧哈哈哈哈，什么时候能通关都是大问题。</s></p>
+<p>为了能随时玩，我特意买了iOS版，结果发现一个大问题，它居然不能iCloud同步，天知道我看每个角色的开头动画看了几回。而且上一次更新居然是一年前。</p>
+<h2 id="gears-tactics">Gears Tactics</h2>
+<figure data-type="image" tabindex="2"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704790005/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/1_2qndiRW3PJpGipxwPGkD2A_n6zgkh.jpg" alt="" loading="lazy"></figure>
+<h4 id="进度第一幕第三章">进度：第一幕第三章</h4>
+<p>中文名叫战争机器：战术小队，看名字就知道是战争机器的系列作。只不过改成了战棋+RTS。</p>
+<p>战争机器是我的射击游戏入坑作，本来一开始我很抗拒玩战术小队的，因为不是射击游戏，我实在提不起兴趣。但是看了很多的测评以后，我决定还是试试。<s>XGP又不用钱，干嘛不玩！</s> 玩了以后发现，居然还不错，并且在对于手柄的优化做的非常好，果然是Xbox的第一方游戏，微软还是下了功夫的。也没有阉割手柄的震动，要知道射击游戏最爽的就是手柄的震动了！</p>
+<p>看到这个进度就知道我还没玩多少，立个flag：我过年前通关这款游戏。</p>
+<h2 id="minekos-night-market">Mineko's Night Market</h2>
+<figure data-type="image" tabindex="3"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704790006/%E6%9C%80%E8%BF%91%E5%9C%A8%E7%8E%A9%E7%9A%84%E6%B8%B8%E6%88%8F/2x1_NSwitch_MinekosNightMarket_coeirw.jpg" alt="" loading="lazy"></figure>
+<h4 id="进度刚开始游玩时间2h56min成就只解锁了2个">进度：（刚开始？）游玩时间：2h56min，成就只解锁了2个。</h4>
+<p>中文名叫未音子的夜市，很放松很治愈的游戏，晚上只留着一盏小灯，戴着耳机玩真的非常舒服。还能在里面撸猫，谁不喜欢啊！说起来，我还没开始在夜市卖东西🤣得找个时间去看看了。</p>
+<p>玩这款游戏我会想到很久以前玩的Knights and Bikes，画风类似，总体也是非常温馨治愈的感觉。如果也能像前者有双人闯关模式就好了。</p>
+<p>通关？不存在的，我估计我能玩到25年。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近几天都在干啥呢？]]></title>
+        <id>https://rh10hd.github.io/post/zui-jin-ji-tian-dou-zai-gan-sha-ne/</id>
+        <link href="https://rh10hd.github.io/post/zui-jin-ji-tian-dou-zai-gan-sha-ne/">
+        </link>
+        <updated>2024-01-07T07:49:42.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1月7日">1月7日</h1>
+<p>这几天一直在摸索markdown，很奇怪的是在<strong>Markdown语法测试</strong>（已经删除了）那一篇可以区分一级二级三级标题，但是在<a href="https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/"><strong>手帐</strong></a>那篇文只能显示三级标题，也不知道哪里出现了问题。还是继续努力摸索吧。</p>
+<p>因为刚弄了博客，整个人还是沉浸于捣鼓博客的新奇中，最后发现还是朴素风最适合自己了。<s>其实就是不会装饰博客</s></p>
+<hr>
+<p>最近天气真的很好，每天都出去晒晒太阳，心情也变得好好。难怪之前纪录片里说经常宅在家里无精打采容易变得更加丧。虽然每天散步去的地方都一样，但都会有不一样的感受，遇到的人也不一样，这种感觉好奇妙。<s>也有可能是我不用上班，所以感觉很奇妙吧哈哈哈</s></p>
+<p>在超市里闲逛的时候，突然收到手机的推送，点进去看发现是朋友给我寄快递了，期待的心情又被勾起来了。等了好久的礼物终于要来了吗？</p>
+<p>回家的路上买了半只烤鸭，试试好不好吃。还有这两天因为吃口香糖太多了，嚼的肌肉都有点痛了，不能再嚼了啊！！！！</p>
+<hr>
+<p>今天翻了翻之前存的韩语每日打卡，最终确定了每天打卡的内容，希望自己真的能坚持吧！也能坚持经常来博客更新东西。<div class="shake">想起来我还有王陆语料库一直没看啊！</div></p>
+<p>还有也整理了备忘录里的东西，果然我就是最喜欢整理和收拾东西了。发现自己真的囤了很多电视剧、电影还有书没有看，24年能不能清完呢？先立个目标再说。</p>
+<p>昨晚躺在床上玩Dicey Dungeons，一看时间已经是12点半了。在想有空不要也写一篇攻略什么的好了？不过就我这个进度什么时候才能通关呢？</p>
+<hr>
+<h1 id="1月8日">1月8日</h1>
+<p>突然又可以正常显示一级二级标题了，真是太奇怪了🤣可能gridea有自己的脾气吧？？</p>
+<p>但是现在另一个问题又来了，用html改好图片以后，gridea预览看不了了😫还是专心用Typora吧</p>
+<hr>
+<h1 id="1月9日">1月9日</h1>
+<p>前两天念叨的礼物终于从朋友那里收到了，好久好久没有这么开心幸福过了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年礼物及一些碎碎念]]></title>
+        <id>https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/</id>
+        <link href="https://rh10hd.github.io/post/xin-nian-shou-zhang-ji-yi-xie-sui-sui-nian/">
+        </link>
+        <updated>2024-01-03T04:41:19.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="前言">前言</h1>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="前言">前言</h1>
+<!-- more -->
+<blockquote>
+<p>折腾又研究了几天，终于把博客弄好了，先把plog上传来了🤣就当作是第一篇博文吧，不过说实话在写这篇东西的时候我还在想网站的名字到底要叫什么。为什么感觉大家取名字都很容易，取的名字也很有意思？而我却纠结犹豫了好几天都没有想到。</p>
+</blockquote>
+<!-- more -->
+<p>现在更新的Plog是做给朋友的新年礼物，很多内容都取材自我们的日常，算是友情回忆录吗？对方看了以后调侃是“我们俩之间甜甜蜜蜜的回忆录”。其实很早之前我就想着要给她准备新年礼物，但是苦恼了很久都没想到要送什么，我的idea早在第一次准备礼物的时候就已经透支完毕了。而且对方也让我不要偷偷送东西了，所以想来想去，我直接放弃了要送礼物的想法，一句祝贺应该就可以了。</p>
+<p>27号的早上我照例在刷豆瓣，看到一个<a href="https://www.douban.com/group/topic/272775623/?_i=3690539kfWteqx"><strong>帖子</strong></a>，楼主展示自己17岁生日从朋友那里收到的绘本，这时微信突然弹出了朋友的消息，我们就顺势聊起来了，她跟我说这个月上班快不行了，觉得特别累。我脑子里蹦出一个想法，我是不是也能做一个绘本送给对方呢？既可以哄她开心，也可以当作新年礼物。</p>
+<p>我立刻把这个想法告诉了我的游戏同好，对方觉得不错，于是我就开始构思，非常感谢同好给我提出的很多想法和意见，以及给予的肯定和鼓励。没有她的帮忙，我估计我肯定搞不定这东西。</p>
+<h1 id="手帐">手帐</h1>
+<p>一开始就是想做绘本，但是尝试了画画之后发现画画很难，同好跟我说可以临摹，我尝试了临摹之后发现也很难，没办法，我真的完全不会画画。我想到可以做手帐，因为朋友本身也喜欢手帐，我这样正好投其所好。不得不说，初版手帐真的很丑很简略，现在想起来都觉得很搞笑，不敢想朋友如果收到会有多无语。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0821_ler7gi.png" alt="" loading="lazy">开始制作的时候光是封面和标题我就想了很久，和同好一直讨论，同好给我想了很多乱七八糟的名字。我突然想到可以使用小豆泥的漫画书名——《世界就是绕着猫打转》，很契合自己与朋友之间的关系。我常常会说我是小豆泥，而她是Nobeko(小豆泥的主人)，也以小豆泥和nobeko为主题。</p>
+<p>里面的图案就是当初准备当成绘本的封面，当时做好以后发给同好看，她说很可爱，真的太给面子了。等我决定要做成手帐的时候，想要更改但是一直没有好的idea。后来收集素材的时候发现了Airdrop样式的图，发现还不错，也很符合我想要给朋友发东西的心思，就立刻拿来用了。于是才有了现在的封面。</p>
+<p>做的时候特别赶，因为打算在跨年的零点送给对方，所以很焦虑，尤其是到30号的晚上我居然还只是做了个不伦不类的简略版手帐，同好安慰我说对方收到你的心意也会很感动的，可我还是觉得不太行。31号的早上醒来，我突然想到，我可以做成plog，简单好做又不失好看。这样才有了最终版的plog。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0826_waumj6.jpg" alt="" loading="lazy"><font size="2">手机是找素材的时候存的，里面的图片用的是朋友的Spotify年度歌手的页面。算是个小彩蛋？也不知道她有没有发现。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0816_epjphv.jpg" alt="" loading="lazy"><font size="2">我们熟起来完全是因为游戏和KPOP，很恰好的是我们都喜欢NewJeans，所以做的时候就决定要以复古风为主要基调，INS界面就用了最古老的xp系统的style。也找了phoning的图，不过她没用过phoning，大概也不知道是什么样的。不得不吐槽一句。抠图是真的麻烦又累。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0832_sm2ufr.jpg" alt="" loading="lazy"><font size="2">翻了翻聊天记录，发现出现频率最高的就是图里的对话🤣忘了之前在哪里看到的，很多痛苦本来就是外人无法帮忙排解的，旁人只能安慰，我没办法给她一个抱抱，所以我只希望每一次聊天的时候都能让她感到有一些治愈。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0833_wioxf2.jpg" alt="" loading="lazy"><font size="2">I'm fine这个图是很早之前从X上存的，当时看到就一眼相中，没想到现在还能用上。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788985/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0814_tvjrp7.jpg" alt="" loading="lazy"><font size="2">Dicey Dungeons真的太好玩了哈哈哈哈，手机上也买了，就为了随时随地来一局 ，但是成就实在太难达成了。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0835_omsjs2.png" alt="" loading="lazy"><font size="2">跟着b站的up主画的，视频时长只有15分钟，但我跟着画了一两个小时，我是不是得好好学画画了？</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788987/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0838_cmbabm.png" alt="" loading="lazy"><font size="2">背景是Windows的画图程序，复古味十足。也不知道现在的Windows系统还有没有了。</font></p>
+<p><font size="2">倒数第二段话是NJ釜山综艺里Minji说的，当时就觉得特别感慨，于是这一次就化用了这段话，但也是我的真心话。想想还是会觉得和朋友的相遇像一场梦一样。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704788986/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0830_hoea7g.jpg" alt="" loading="lazy"><font size="2">送游戏一方面是因为我们是玩游戏认识的，另一方面是朋友不让我再偷偷给她送东西了，所以就送了好评很多，同时也是上次见面在她的愿望单里看到的《NOBODY SAVES THE WORLD》。</font></p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1704789699/%E6%96%B0%E5%B9%B4%E6%89%8B%E5%B8%901.5/IMG_0840_gtfojt.jpg" alt="" loading="lazy"><font size="2">这张图也是我在Pinterest上看到的，原本是一个动图，我截了其中一幕当成了结尾图，效果还不错。本来是打算用一些比较文艺的图结束的，但是发现不太符合整体的调性，就还是选择了比较可爱的图片。</font></p>
+<h1 id="结语">结语</h1>
+<p>准点的时候发给朋友，还闹了点乌龙，她以为是NJ的周边就没仔细看，我看对方没有什么反应还很生气，和同好吐槽，最后忍不住提醒了朋友，她才发现这是专门做给她的plog。所幸我没有因为太生气而直接去睡觉，否则就完全白费这几天掉的头发了🤣</p>
+<p>尽管做的时候熬夜了好几天，头也很疼，但是看到对方开心的样子，觉得这一切还是很值得的。</p>
+<p>现在已经开始烦恼下一次送礼物该送什么了。</p>
+]]></content>
+    </entry>
+</feed>
