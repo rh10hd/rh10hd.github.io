@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rh10hd.github.io</id>
+    <title>2H ISLAND</title>
+    <updated>2024-08-03T13:56:57.888Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rh10hd.github.io"/>
+    <link rel="self" href="https://rh10hd.github.io/atom.xml"/>
+    <subtitle> </subtitle>
+    <logo>https://rh10hd.github.io/images/avatar.png</logo>
+    <icon>https://rh10hd.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 2H ISLAND</rights>
+    <entry>
+        <title type="html"><![CDATA[2024-08-02]]></title>
+        <id>https://rh10hd.github.io/post/2024-08-02/</id>
+        <link href="https://rh10hd.github.io/post/2024-08-02/">
+        </link>
+        <updated>2024-08-02T14:50:16.000Z</updated>
+        <content type="html"><![CDATA[<p>最近一直在弄Alfred，看着折腾好的Workflow很有成就感，尤其是Debug成功的时候，特别开心。但是感觉自己有点本末倒置了，本身我找Workflow就是为了能够提升自己的效率，结果我把更多的时间放在了折腾上面，我似乎应该把沉迷于折腾这些工具的时间拿去做我原本就想做、该做的事情。</p>
+<p>不过最近发现了个人觉得非常实用的GTD软件——<a href="https://www.taskpaper.com/"><strong>TaskPaper</strong></a>，配合iOS<a href="https://apps.apple.com/cn/app/taskmator-taskpaper-client/id806250172"><strong>TaskMator - TaskPpaer Client</strong></a>一起使用，特别赞，还能导出到苹果自带的提醒事项。不过国内提到TaskPaper的特别少，搜到的最新文章还是几年前少数派的文章。当时买的时候我还犹豫了好一会儿，好在没让我失望，又让我找回了小时候在纸上写待办事项、清理完成事项的乐趣，每天都要看看自己的待办事项然后划掉再去睡觉才觉得安心，看到这么多完成的待办，成就感倍增。</p>
+<p>在TaskPaper官网还看到的了一款outline工具<a href="https://www.hogbaysoftware.com/bike/"><strong>Bike Outliner</strong></a>，以前没有用过outline一类的工具，发现意外得很有用，突然灵感来了，随手一记，再定期整理到Obsidian，果然这种复杂的编辑还是更喜欢纯文本。手机端目前则是使用免费的<a href="https://zavala.vincode.io/"><strong>Zavala</strong></a>，也有Mac和iPad端，支持iCloud同步，Mac端支持导出MD、PDF格式，但是编辑方面个人感觉还是Bike更为舒服，不过免费的还奢求什么呢？但是挺奇怪的是，我在手机上用Zavala编辑Bike的OPML居然不会影响到Bike的原文档，而且在Zavala创建新文档后我在iCloud中也找不到原文档。</p>
+<p>前一阵还在<a href="https://bundlehunt.com/bundle/2024-epic-utility-bundle"><strong>Bundle Hunt</strong></a>买了<a href="https://c-command.com/eaglefiler/"><strong>EagleFiler</strong></a>和<a href="https://www.witt-software.com/rockettypist/"><strong>Rocket Typist</strong></a>,只花了不到60，但是体验真的不错。EagleFIler之前就想买的，但是无奈太贵，正好赶上了促销，直接买入，非常好地满足了我的收集癖，而Rocket Typist补足了Alfred的Snippets。如果下次RT的iOS版本也搞活动就好了。</p>
+<p>今天给妈妈送行李的路上终于打开了《光环3：最后一击》，果然坐地铁的时候看书就是能看得很认真，在家看的时候看三分钟我就想玩手机。<s>争取早点看完写个总结怎么又开始挖坑了我？致远星的陨落还没写总结呢。</s></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决Python 3 SSL Certificate问题]]></title>
+        <id>https://rh10hd.github.io/post/Python 3 SSL CERTIFICATE_VERIFY_FAILED/</id>
+        <link href="https://rh10hd.github.io/post/Python 3 SSL CERTIFICATE_VERIFY_FAILED/">
+        </link>
+        <updated>2024-07-17T06:36:53.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>一句话总结：进入你的Python安装文件夹，找到Install Certificates.command双击安装即可。</p>
+</blockquote>
+<p>最近一直在捣鼓Alfred Workflow，昨天发现了一个workflow是查询<u><a href="https://github.com/xilopaint/alfred-urban-dictionary">Urban Dictionary</a></u>还蛮有用的，也不用看任何广告了，不过仍需魔法。</p>
+<p>第一次使用的时候就发生了问题，打开Alfred的Debug模式发现问题是Python 3的&quot;SSL: CERTIFICATE_VERIFY_FAILED&quot;（忘了截图了），于是上网找了各种方法，要么就是操作过于复杂，要么就是过时无法解决了。</p>
+<p>如果担心网站的SSL问题，可以通过<u><a href="https://www.sslshopper.com/ssl-checker.html">SSL Checker</a></u>去查询。下图是ud的api网站的查询截图。</p>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721197429/obsidian/kbyhd3stf6s7qpvdqz0h.png" alt="UD SSL" loading="lazy"></figure>
+<p>后来在<u><a href="https://blog.csdn.net/weixin_38169413/article/details/100691214">CSDN</a></u>发现一个最简单的方法，直接进Python的安装文件夹，双击Install Certificates.command即可。</p>
+<figure data-type="image" tabindex="2"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721196512/obsidian/gi4nbgdlvynzy6pqjg5i.png" alt="rf" loading="lazy"></figure>
+<p>这是我的Python安装文件夹，因为我懒得再开访达了，就直接用Alfred了，顺带一提这个workflow是<u><a href="https://github.com/mpco/AlfredWorkflow-Recent-Documents">Recent Documents</a></u>，可以看最近打开的app/文件夹。使用前可以根据<u><a href="https://github.com/mpco/AlfredWorkflow-Recent-Documents/issues/33">issue#33</a></u>进行一些修改即可正常使用。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721197438/obsidian/tr0mvo3dzc6fwqqpulsq.png" alt="SC" loading="lazy"><center><font size="2px">Install Certificates.command</font></center></p>
+<p>此时再试试Urban Dictionary的workflow已经可以正常使用了。Enjoy it!</p>
+<figure data-type="image" tabindex="3"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721196297/obsidian/xzza3cxugc1rhiagoiv0.png" alt="ud截图" loading="lazy"></figure>
+<p>不过<u><a href="https://alfred.app/workflows/giovanni/power-thesaurus/">Power thesaurus</a></u>的URL依旧拒绝了我，看了原作者的GitHub，有人遇到了跟我一样的问题，说等了24-48小时突然就能使用了，那我只能静静等待了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[战士的餐桌——朗姆酒]]></title>
+        <id>https://rh10hd.github.io/post/战士的餐桌_朗姆酒/</id>
+        <link href="https://rh10hd.github.io/post/战士的餐桌_朗姆酒/">
+        </link>
+        <updated>2024-07-16T14:59:51.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="战士的餐桌介绍">《战士的餐桌》介绍</h2>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721140692/obsidian/tq4donoyin6d1gdmkjef.png" alt="《战士的餐桌》豆瓣截图" loading="lazy"></figure>
+<p>最近在读一本书<u><a href="https://book.douban.com/subject/36158482/">《战士的餐桌：二战各国战地饮食传奇》</a></u>，是微信读书推荐的，不像一般二战背景的书那么严肃，这本算是比较轻松幽默的，每次看书中的战争故事，再配上美食介绍，都颇有种苦中作乐的感觉，而且这本书的章节之间没有关联，所以根据自己感兴趣的内容按照目录找来看就可以了。不过因为我同时还在看别的书，所以这本书的进度还挺慢的。<s>（好吧，其实是因为在看《光环》）</s></p>
+<h2 id="英国篇传承勇气的纳尔逊之血-朗姆酒">英国篇：传承勇气的纳尔逊之血-朗姆酒</h2>
+<blockquote>
+<p>这一篇是我觉得比较有意思的，而且历史叙述比较长，看完有点凌乱，所以特意做了个梳理。</p>
+</blockquote>
+<p>哥伦布在第二次远航美洲时将甘蔗带到了古巴，并在加勒比主道上广泛种植，进而形成了规模可观的制糖产业。15世纪末到16世纪初，加勒比地区的制糖工人发明了朗姆酒。</p>
+<p>在16世纪时英国海军就有每日配给啤酒的习惯，而在17世纪中叶时朗姆酒进入了英国海军，衍生出了一个词叫做“朗姆配给 (rum ration)”。</p>
+<p>17世纪的一位海军中将弗农对朗姆配给制度进行了更改：调整比例和每日分配的时间，该新制度延续了200多年。因弗农非常喜欢又格罗格兰姆呢制作的外套，获得了老格罗格 (old grog)的绰号，于是水兵们将兑水的朗姆酒也称作格罗格，时至今日已经成为掺水烈酒的称呼。</p>
+<p>1824年英国海军决定将每日配给的朗姆酒分量减半。1850年进一步削减配给量。1881年军官的朗姆酒配给取消，此后只有士官和水兵能够继续享有此项配给。此外，配给士官的朗姆酒不必兑水，而供给水兵的朗姆酒必须按照弗农当年的命令掺水后来再进行分配。当然，士兵可以选择不领取朗姆酒，作为替代他可以得到每天3便士的补助，不过很少有人会放弃饮酒的快乐。</p>
+<p>1970年下议院关于是否废除“朗姆配给”引发了一场辩论，史称“朗姆酒大辩论”，最后海军部宣布同年8月1日停止已经延续了3个世纪之久的朗姆酒配给制度。</p>
+<p>尽管朗姆酒配给制度结束了，但是将朗姆酒作为奖励的这一制度延续了下来。这一制度被称作“连接主桅操桁索 (Splice the mainbrace)”。</p>
+<p>在1970年之后，只有皇室成员才有权下达“连接主桅操桁索”的命令，通常是在重大纪念日表示庆祝。</p>
+<p><img src="https://modelshipworld.com/uploads/monthly_2017_06/59386869ab9a8_MainBrace.thumb.jpg.7d26477b73e1b59fae3f3aae75d8666e.jpg" alt="Splice the mainbrace" loading="lazy"> <font size="2px">splice the mainbrace</font></p>
+<h2 id="结语">结语</h2>
+<p>这本书我到现在只看了三分之一，然后就跑去看光环了，光环的进度倒是挺快的，已经把<u><a href="https://book.douban.com/subject/1462652/">《致远星的陷落》</a></u>看完了，抽个空把这本也写一写好了。<br>
+写这篇博文的时候，我看了豆瓣评价，发现蛮多人吐槽书像微信公众号的推文集合，不过我个人还是挺喜欢的，毕竟我对军事兴趣不大，了解不深，要是真让我看军事相关的书我应该会立刻睡着。下次再写这本书估计就是我看完了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欢迎你来到虚构世界——关于游戏Figment2: Creed Valley]]></title>
+        <id>https://rh10hd.github.io/post/Figment2_Review/</id>
+        <link href="https://rh10hd.github.io/post/Figment2_Review/">
+        </link>
+        <updated>2024-07-15T11:18:03.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="intro">Intro</h2>
+<p>每个月月初和月中刷新本月的XGPU即将退库的游戏似乎是自己的固定流程了，月初的时候发现自己一直下载了却没有玩的Figment 2要退库了，查了一下<u><a href="https://howlongtobeat.com/game/99345">Howlongtobeat</a></u>，流程只要4个小时即可通关，而全成就也只需要6个小时，其他要退库的游戏我实在没多大兴趣或者早已通关（说的是你TOEM）当下就决定来试试Figment。</p>
+<h2 id="整体感受">整体感受</h2>
+<ul>
+<li>游戏整体还不错，蒂姆·波顿的画风，将背景设置在了人类的意识中，是我非常喜欢的与人类大脑、意识和灵魂相关的背景（好吧，其实我就是想到了Psychonauts 2）</li>
+<li>其实我感觉这个游戏更像是一个童话故事，和小朋友一起玩也会觉得很欢乐，制作组特意搞了个双人模式就是为了合家欢吗？</li>
+<li>游戏也很符合开发商的名字Bedtime Digital Games，我确实通关了就去睡觉了:-D</li>
+</ul>
+<h3 id="优点">优点</h3>
+<ul>
+<li>游戏难度适中，不会刻意为难玩家，解谜也很有成就感，就连BOSS战也不会很高难度；</li>
+<li>BGM非常好听！尤其是boss关卡，音乐富有激情，半夜玩的时候我都会忍不住抖腿。顺带一提，里面的角色人均会rap；</li>
+<li>本地化做得非常好，英语环境下的角色、地点名字的设定本身就非常有意也很有梗，没想到中文翻译也没有让我失望。尤其是在伦理迷宫的那几本书的翻译，翻译一绝；</li>
+<li>附带一些哲学思考（这是优点吗？姑且算吧）小鸟Piper是个非常聪明的鸟鸟，经常会有灵魂发问，她和主人公Dusty的一些对话让我觉得她更像是个人而非普通的NPC。而且Piper的戏份也不仅仅是陪衬，快到结局的时候也是发挥了自己的大作用的。</li>
+</ul>
+<h3 id="缺点">缺点</h3>
+<ul>
+<li>小公司出品，必不可免地会有一些小问题，人物动作略显僵硬，不过在我玩了1代之后，我发现2代的居然是改善过后的版本了；</li>
+<li>游戏的剧本和立意很俗套——通过男主Dusty和小鸟伙伴Piper在mind里的一系列冒险呼吁人们关心身边人、将工作时间更多地放在娱乐上；</li>
+<li>怪物太重复了，一开始非常有新鲜感，但是玩到后期就会发现，怪物来来回回只有那么几种，实在让我疲乏。</li>
+</ul>
+<h2 id="游戏截图">游戏截图</h2>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041431/obsidian/bur9wioahibwfamzubte.png" alt="野猪怪 " loading="lazy">这个是里面的一个怪物被Dusty打败后幻化的形态，忘了叫啥了，只记得原来是一头野猪。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721059375/obsidian/fmxbujk3mgcqz0bvkja8.png" alt="主人公" loading="lazy">说实话这还是我在游戏里第一次看到两位主角的样子。（左Dusty，右Piper）</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721059411/obsidian/chk5lsgxt7sus1v2ovxx.png" alt="小可怜Jester" loading="lazy">本作的最终BOSS——Jester，其实也是一个小可怜。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041970/obsidian/fzstpfdhbtjyp60r7f5u.jpg" alt="Piper小可爱" loading="lazy">我做成就收集的时候在伦理迷宫，Piper对Dusty说有没有可能我们只是别人意识中的一部分，我才发现原来Dusty和现实中的男人是互相不知道的，而玩家所做的这些事情只是Dusty与Piper的冒险，它们只是想驱赶nightmares，让自己所在的地方变回原来的样子，并不是我一开始所想的：男人的意识进入自己的大脑中探寻自己究竟发生了什么，找到原因并采取修正措施，从而恢复正常生活。我突然就在想会不会玩游戏的我也只是别人意识中的一部分？果然我对于梦境、意识、大脑、灵魂一类的东西就是完全无法抵抗。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041733/obsidian/i4ilgsmfoehj4hrqzycs.png" alt="欢乐屋" loading="lazy">Jester小可怜的屋子，这里是Dusty和Piper收拾欢乐屋。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041792/obsidian/ofxqxhae6woxmtqbobwr.png" alt="Jester看到欢乐屋" loading="lazy">结局Jester看到收拾好的欢乐屋，特别可爱。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041916/obsidian/b7pw8lozjnmxfjifsnio.png" alt="结局Boss战" loading="lazy"><br>
+与Jester大战三百回合（其实就是跳舞三百回合）难度一点也不高，我真的太喜欢了。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721042061/obsidian/fx49ly3usc1abjbj0tys.png" alt="Jester在欢乐屋与意识对话" loading="lazy">Jester在欢乐屋与意识对话，而现实中的男主人也终于放下繁忙的工作，放下对房子的执念，拿上曾经非常喜欢的尤克里里和家人聚在一起。</p>
+<h2 id="结语">结语</h2>
+<ul>
+<li>制作组将背景设置为人类的大脑内部，我的每一个opinion都生活在不同的地方，它们或孤身一人，或互相吵架，有的还在活跃，有的早已被我遗忘，但是直到我遇到它们我才知道曾经的我有很多想法和爱好，却都因为繁忙的工作导致nightmares入侵，而Jester“日益壮大”。不过玩到结局会发现，其实这里面根本没有一个坏人，连Jester都是小可怜。</li>
+<li>感谢Bedtime Digital Games制造梦境，而我在这场梦境中体验了最独一无二的Nightmare。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian-Cloudinary]]></title>
+        <id>https://rh10hd.github.io/post/qLuoHTI65/</id>
+        <link href="https://rh10hd.github.io/post/qLuoHTI65/">
+        </link>
+        <updated>2024-01-10T08:51:03.000Z</updated>
+        <content type="html"><![CDATA[<p>搜了好久，终于发现一个可以优雅使用Cloudinary的<a href="https://github.com/uday-samsani/obsidian-cloudinary"><strong>插件</strong></a>，可以直接在Ob里面上传图片到Cloudinary并且返回URL。</p>
+<p>设置也很简单，只需要设置cloud name, cloud upload template和cloud upload folder就完事了。</p>
+<p>实际测试了一下，速度很快。以后就安心使用Obsidian写博客了😌不用窗口来回切换复制粘贴了。</p>
+]]></content>
+    </entry>
+</feed>
