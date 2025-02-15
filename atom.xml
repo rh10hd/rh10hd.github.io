@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rh10hd.github.io</id>
+    <title>2H ISLAND</title>
+    <updated>2025-02-15T15:23:25.322Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rh10hd.github.io"/>
+    <link rel="self" href="https://rh10hd.github.io/atom.xml"/>
+    <subtitle> </subtitle>
+    <logo>https://rh10hd.github.io/images/avatar.png</logo>
+    <icon>https://rh10hd.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 2H ISLAND</rights>
+    <entry>
+        <title type="html"><![CDATA[2025-02-15 一些没什么意义的胡诌]]></title>
+        <id>https://rh10hd.github.io/post/TF70MqWKQY/</id>
+        <link href="https://rh10hd.github.io/post/TF70MqWKQY/">
+        </link>
+        <updated>2025-02-15T15:20:43.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="一些胡诌">一些胡诌</h2>
+<p>之前一直在使用的HoudaSpot软件，我发现它由于依赖苹果的Spotlight检索，导致部分内容是无法检索的。后来我还是切换到了<a href="https://apps.tempel.org/FindAnyFile/index.php">FindAnyFile</a>，全盘检索，还支持搜索移动硬盘里的数据，简直不要太方便。还是shareware，可以说是非常良心了。</p>
+<p>最近还在使用<a href="https://www.stclairsoft.com/HistoryHound/">HistoryHound</a>和<a href="https://www.stclairsoft.com/DefaultFolderX/index.html">Default Folder X</a>，前者索引历史记录并进行检索，后者是Finder的扩展，也支持QSpace，这两个软件都同属一个开发者，都非常实用。希望开发者能继续开发优秀的软件吧。我还把TextMate切换成了<a href="https://apps.apple.com/cn/app/coteditor/id1024640650?mt=12">CotEditor</a>，主要原因是前者居然不支持全文检索韩语，也不能对韩语进行拼写检查，实在令我失望，后者虽然没有markdown preview的功能（开发者说对CotEditor的定位就是编辑器），但其他功能已然十分完美，还支持中文。</p>
+<p>现在的笔记软件除了Obsidian之外，也在使用<a href="https://fsnot.es/">FSNotes</a>，因为到目前为止我只找到了这款软件和<a href="https://zettelkasten.de/the-archive/">The Archive</a>是最相似的。支持手机端，完美地弥补了The Archive没有手机端的缺憾，同时是开源免费的，也可以在应用商店购买支持开发。（话说The Archive你什么时候打折，我实在太想买了）</p>
+<p>应用商店找到了一款软件叫<a href="https://apps.apple.com/cn/app/nested-list-outliner/id6738434530">Nested List</a>，利用纯文本文件来做outline，感觉挺特别的，我还能直接用<a href="https://www.hogbaysoftware.com/bike/">Bike</a>打开并编辑了。纯文本就不用担心格式的问题，什么软件和平台都能打开，也非常稳定，可能等我驾鹤西去了，我的笔记依然能“岿然不动”。</p>
+<p>我最爱的MindMap软件<a href="https://www.literatureandlatte.com/scapple/overview">Scapple</a>也更新了1.5版本，官方说用Swift把底层代码来了个大翻新，那iOS端应该也不远了。</p>
+<p>感觉博客的软件我得换一个了，Gridea目前的加载速度越来越慢了，点击图标以后它起码得在Dock跳十几秒才能打开主界面。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[黑五和圣诞买的一些软件]]></title>
+        <id>https://rh10hd.github.io/post/B_tDwX2Z6K/</id>
+        <link href="https://rh10hd.github.io/post/B_tDwX2Z6K/">
+        </link>
+        <updated>2024-12-29T06:36:19.000Z</updated>
+        <content type="html"><![CDATA[<p>永远记住一句话：工具是为了人而服务的，不要过度沉迷于购买工具。</p>
+<p>黑五的时候<a href="https://unclutterapp.com/">Unclutter</a>的公司搞了个space&amp;time bundle的活动，趁机半价入手了<a href="https://www.keyboardmaestro.com/main/">Keyboard Maestro</a>和<a href="https://daisydiskapp.com/">DaisyDisk</a>，可以说是我最近一段时间花得最值的两笔钱，尤其是KM，太方便懒人了，它的论坛也非常活跃，可以说是我见过最活跃的软件相关论坛了。不管在上面问什么问题，都有人帮忙解答。</p>
+<p>最近<a href="https://www.artisanalsoftwarefestival.com/">WinterFest 2024</a>也在搞活动，入手了<a href="https://www.devontechnologies.com/apps/devonagent">DEVONagent Pro</a>，搜索效率很高，过滤也做得很好，去除了重复页和广告页，节省了大量时间，每次搜索一些韩语知识点的时候都非常方便，终于不用在千百个网页中找来找去，看得头晕眼花了。</p>
+<p>WinterFest 2024中的<a href="https://www.literatureandlatte.com/scapple/overview">Scapple</a>也很好用，是我用过得最好的Mindmap工具，也是我认为最符合人脑思考习惯的MindMap工具——随时随地插入节点，完全不用拘泥于任何形式，编辑起来就像在纸张上编辑一样。唯一的缺点就是没有移动端，不过开发商已经明确表示正在开发中。同一开发商旗下的<a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a>也推荐给喜欢码文的朋友，具体功能就不多介绍了，官方有介绍视频和文档（全英）。这两款软件的试用也很人性化，虽然标注的试用时间是30天，但是只有打开使用才会计入使用时间，也就是说如果一个月只用1天，那么30天的试用时间就相当于能试用30个月，将近3年，不过应该也不会有人一个月只用一天的吧？</p>
+<p><a href="https://www.houdah.com/houdahSpot/">HoudahSpot</a>也推荐一试，搜索速度非常快，几乎是我按下回车的一瞬间，它就立刻跳出了结果，已经成为了我最爱用的文件检索软件，支持<a href="https://www.popclip.app/extensions/x/g7fk28">PopClip</a>和Alfred，每次卸载完某款软件以后我都会用这个软件去检索并删除残留文件。不购买也可以一致使用，只是会弹出购买提示，其余功能与付费版完全一致。</p>
+<p>下一次更博文就是2025年了吧，希望下一年也能继续多更博客，多看书，幸福健康。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[笔记迁移和笔记工具]]></title>
+        <id>https://rh10hd.github.io/post/8ek1bIx7io/</id>
+        <link href="https://rh10hd.github.io/post/8ek1bIx7io/">
+        </link>
+        <updated>2024-12-29T06:17:22.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="决定迁移">决定迁移</h1>
+<p>最近也在忙着将OneNote的笔记都迁移到Obsidian，使用ON的时间越长就越发觉它的鸡肋，占用体积越来越夸张，现在已经超过1Gb，我实在不明白，一个简单的笔记软件为什么会这么大，但是功能又那么不完善：</p>
+<ul>
+<li>表格嵌套虽然非常方便和自由，但是连最基础的合并单元格都不支持</li>
+<li>搜索功能非常难用，经常找不到想要的结果</li>
+<li>虽然可以使用Onedrive同步，但是网页端必须要翻墙才能使用</li>
+<li>不支持Apple Script，导致非常多的插件无法使用。（Alfred的Workflow和<a href="https://hookproductivity.com/">Hookmark</a>都无法使用）</li>
+<li>双向链接十分鸡肋，跳转实在太慢了…有时候甚至跳不了，远不如OB的链接跳转来得方便</li>
+<li>格式不够普适，不像txt和md一样可以随时迁移。（你所记录的笔记不应该只适用于你现在正在使用的软件）</li>
+<li>Web Clipper的插件至今都不支持Safari，只能在Chrome上使用。</li>
+<li>tag功能约等于无，只有文件夹功能</li>
+</ul>
+<p>Obisidian我一直都拿来记录看过的书影音和播客，各类功能和插件都已经摸得差不多了，于是毅然决然地决定将笔记从ON迁移到OB。整理笔记的时候发现自己真的记录了好多东西，而且有一种自己以前都是在摘抄记录而不是思考记录的感觉。记笔记最重要的过程还是自己思考得出结论的过程，而不是一味地摘抄自我感动的过程。</p>
+<h1 id="the-archive">The Archive</h1>
+<p>在<a href="https://support.hogbaysoftware.com/t/how-do-others-handle-document-management-with-bike/5556">Bike Outliner的论坛</a>闲逛的时候发现了<a href="https://zettelkasten.de/the-archive/">The Archive</a>这款软件，认真了解了一下，发现就是电子版本的卢曼卡片笔记工具，但是创始人认为工具应该是为人服务的，因此你想怎么用都可以，不受限于其他事情。下载试用到现在半个多月，我不得不说这款工具麻雀虽小五脏俱全，search功能很赞，哪怕不在里面直接创建笔记，也能够指向某个文件夹，很好地弥补了OB的集合指向功能，因为这款软件，我现在在OB中新建的笔记都不再继续建立子文件夹了，专注于tag，因为我发现有很多笔记是没有办法只放在一个文件夹中，有可能这个笔记和多个主题都相关，那这个时候只能靠tag了。</p>
+<p>创始人和论坛也非常活跃，我经常在里面看大家笔记记录、建立知识体系的分享，很久没有见过这么nice的知识交流过程了。最近这款软件推出了1.80版本，支持插件，希望以后能看到这款软件更好的发展。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac卡顿]]></title>
+        <id>https://rh10hd.github.io/post/bJW2_iuEAh/</id>
+        <link href="https://rh10hd.github.io/post/bJW2_iuEAh/">
+        </link>
+        <updated>2024-12-29T06:05:48.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="劫难历程">劫难历程</h1>
+<p>前一阵Mac不知道怎么了，莫名其妙开始卡顿，突然鼠标就会卡住不动，按键盘也没有反应，等30s左右就会恢复，我以为正常了，结果过一会儿又会鼠标、键盘全都没有反应，循环往复几次以后用户就会自动重新登录，或者直接黑屏，只有重启才能解决。虽然资料没有丢失，但是随着时间的推移，卡顿发生的频率越来越高，一天会发生三次以上，实在让人没法好好工作。</p>
+<p>一开始我以为是升级新系统的缘故，因为这个问题正好在我升级了14.7.2后的几天，所以当时我衡量了一下，将系统升级到了15，一个上午过去都没发生这个问题，在我以为卡顿终于解决以后，噩梦又继续了。</p>
+<p>按照各种关键词四处搜索后，找到了<a href="https://medium.com/@tobemaster/%E8%A7%A3%E5%86%B3-mac-%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%8D%A1%E9%A1%BF-4a8ab8a30415"><strong>一篇文章</strong></a>，按照里面的方法逐一试验，都没什么用，还是继续卡顿，我甚至连关闭聚焦搜索都试过了，也不起作用。直到某一天我又搜索mac卡顿的时候发现了一篇文章，里面提到一个方法——尝试卸载最近安装的软件，本着死马当活马医的心态试试，卸载了几个最近安装的软件<a href="https://shortcat.app/"><strong>shortcat</strong></a>, <a href="https://www.devontechnologies.com/apps/freeware"><strong>EasyFind</strong></a>, <a href="https://www.xnview.com/en/xnview/"><strong>XnView</strong></a>，<a href="https://marco.org/apps#quitter"><strong>Quitter</strong></a>，终于我的Mac恢复正常了。毫不夸张地说，发生卡顿问题的一个星期内，Mac关机次数比过去3年都多。再也不敢乱装软件了。</p>
+<h1 id="后续">后续</h1>
+<p>不过折腾的过程中也重新捡起了<a href="https://rime.im/"><strong>Rime输入法</strong></a>，其实很早之前就试过，发现不太好用，还是更喜欢原生输入法，但是这一次发现这款输入法也挺不错的，就直接替换掉了原生输入法。但是粤拼输入法为什么怎么都装不进去？？</p>
+<p>也顺带将Kensington的鼠标设置软件<a href="https://www.kensington.com/zh-cn/software/kensingtonworks/"><strong>KensingtonWorks</strong></a>给替换成了<a href="https://karabiner-elements.pqrs.org/"><strong>Karabiner</strong></a>和<a href="https://macmousefix.com/"><strong>Mac Mouse Fix</strong></a>，原来的软件实在太大了，也非常不实用。</p>
+<p>长时间不用的PS和AI也被我卸载了，一瞬间给电脑腾出了10g的空间，不敢想像Adobe究竟在我的电脑里都装了些什么东西。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《辛特堡传说》 —— 逃离都市，来一场酣畅淋漓的魔法解谜]]></title>
+        <id>https://rh10hd.github.io/post/Dungeons_of_Hinterberg/</id>
+        <link href="https://rh10hd.github.io/post/Dungeons_of_Hinterberg/">
+        </link>
+        <updated>2024-09-25T15:45:21.000Z</updated>
+        <content type="html"><![CDATA[<p>前一阵通关了<a href="https://store.steampowered.com/app/1983260/__Dungeons_of_Hinterberg/">《辛特堡传说》(Dungeons of Hinterberg)</a>，XBOX显示游玩时间24h，但我感觉我似乎没玩多久游戏就结束了:) 好久没这么沉迷一款游戏了，其实同时期还在玩SteamWorld Dig:-D 不过玩游戏就是要多个游戏一起玩才有意思！</p>
+<h2 id="剧情和游戏重心">剧情和游戏重心</h2>
+<p>游戏的剧情设定是女主路易莎原本是在律所工作的律师，但是因为工作压力大，于是选择来到辛特堡逃离都市生活，结果阴差阳错地卷入了镇长的阴谋，就这么顺理成章地背上了破解阴谋、拯救小镇的责任。不过游戏的剧情其实也不是重点，我根本不会说，我玩到结局已经忘记大部分剧情了。因为游戏的工作室<a href="https://x.com/microbirdgames">MicrobirdGames</a>本身就在奥地利，所以游戏中常常出现“奥地利”和“阿尔卑斯山”，制作组也很贴心地制作了滑雪地图，非常有意思。画风也很独特，一种类似美漫但又不完全是的风格，游戏解锁相机以后我经常在里面拍照，游戏的过场加载也很漂亮。</p>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727279849/tu9yrwbg0huu2zusz2jh.png" alt="雪山" loading="lazy"></figure>
+<p>虽说该游戏给自己的定位是冒险动作游戏，但是游玩的时候能非常明显地感觉到解谜才是其重心，其他都是调味料。所幸这盘主菜真的做得非常好。</p>
+<p>整个地图分为五大板块，除去特别设定的一个板块其余每个板块都有各自的魔法设定，而每一个魔法设定都有非常好地融入进了解谜中，其中也能看到其他游戏的影子，譬如最后一张地图的“空间错乱”，就总让我想到《纪念碑谷》和《前进！奇诺比奥队长》。整体解谜难度适中，引导适当，稍微动动脑就能够解开谜题，每次成功解谜后我都觉得我实在太！聪！明！了！而这些魔法设定也不仅仅只是为了解谜而存在，在打怪的时候也能够派上用场。</p>
+<figure data-type="image" tabindex="2"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727280108/gb44vagjdkwwztbrxpdv.png" alt="其中一个森林板块的过场动画" loading="lazy"></figure>
+<p>当然其中部分地下城也是存在BOSS需要征服的，并不是完全的解谜，游戏在大方向上的解谜和打怪之间的平衡还是做得不错的。</p>
+<figure data-type="image" tabindex="3"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727280295/udoi7unpgzoivalon8aj.png" alt="BOSS" loading="lazy"></figure>
+<h2 id="好友和好感度系统">好友和好感度系统</h2>
+<p>制作组为了不让玩家觉得无聊，还贴心地设计了好友系统和好感度系统，让玩家在打怪之余多和小镇上的人往来，提高好感度，以此增加一些BUFF，同时推进游戏剧情的发展。好感度系统我觉得非常好的一点是没有强制要求某一位NPC或者所有NPC的好感度和成就挂钩，天知道这点对于成就党（譬如我）来说有多么友好。当然该在和NPC交友的过程中也有令人很烦躁的一点就是对话实在太长太多了，虽然制作组设计了跳过按键，但是却没有对话记录，以至于我后期完全不想看冗长的对话但是又无法得知NPC身上的故事，这点对我来说还是缺少了一些参与感的，希望后期制作组能够添加回溯对话的功能吧。</p>
+<figure data-type="image" tabindex="4"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727280219/k7ric7ugh4snvjxeuxpq.png" alt="主角所在的小镇" loading="lazy"></figure>
+<p>还有一点要吐槽的是，制作组虽然告诉我“不想去地下城也是可以的，多和朋友们玩吧”，但是每天早上制作组都让我一定要选一个地下城去打怪！完全不给予我任何选择的余地！</p>
+<figure data-type="image" tabindex="5"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727279675/dvczb09rju4lxmwowx6x.png" alt="去玩儿吧" loading="lazy"></figure>
+<h2 id="战斗与金钱系统">战斗与金钱系统</h2>
+<p>通关游戏以后我找了工作室的<a href="https://gameranx.com/features/id/503577/article/dungeons-of-hinterberg-interview-gameplay-inspirations-post-launch-plans-more/">访谈</a>，里面提到他们试图平衡整个地图的探索感和地下城的体验感，但是在游玩的过程中我仍然能很明显地感觉到制作组的力不从心。</p>
+<p>金钱系统是当中设计最不合理的一个，玩到结局的时候我还剩下二十多万辛特币，完全不知道干什么好。买装备也不需要，因为地下城本身就能够获得不错的装备，于是我都拿来买各种药水和送给NPC的礼物了。好在制作组似乎认识到了这一点，在9月9月推出了更新，增加了换装系统，玩家可以用辛特币购买服装给路易莎换装，不过服装种类还是挺少的。</p>
+<p>游戏的战斗系统也存在一定的不合理，装备数值我其实是有点看不懂的，每次更换装备的时候，上升或者下降的幅度非常模棱两可，很不明晰，以至于我对于更换装备这件事都是一股脑的换位置在最上面的装备。魔符的设计也是可有可无，我每次升级魔符都是为了完成成就（有三个成就与之相关）。怪物的种类非常少，来来回回就是那么几种，挺无聊的。</p>
+<p>不过有一点让我觉得很新奇的是，在地下城遇到了景点可以在里面待一下午，以此增加主角的各种属性（虽然待在那里就是路易莎自己在不停地碎碎念，有点好笑）</p>
+<h2 id="总体评价">总体评价</h2>
+<p>10/10</p>
+<p>尽管角色动作僵硬，怪物重复无聊，甚至在教程关卡我就一度想要弃游，但是还好我没有因为一时太过生气就弃游了，游戏中的解谜真的非常有意思，恰到好处的指引让我在解谜后获得充裕的满足感，新奇的谜题设定也让我在游玩过程中直呼“居然可以这样？！”。我已经开始期待工作室的下一部作品了。</p>
+<figure data-type="image" tabindex="6"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/v1727280026/muzggmlaxyhl01h6yr6p.png" alt="结尾" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024-08-02]]></title>
+        <id>https://rh10hd.github.io/post/2024-08-02/</id>
+        <link href="https://rh10hd.github.io/post/2024-08-02/">
+        </link>
+        <updated>2024-08-02T14:50:16.000Z</updated>
+        <content type="html"><![CDATA[<p>最近一直在弄Alfred，看着折腾好的Workflow很有成就感，尤其是Debug成功的时候，特别开心。但是感觉自己有点本末倒置了，本身我找Workflow就是为了能够提升自己的效率，结果我把更多的时间放在了折腾上面，我似乎应该把沉迷于折腾这些工具的时间拿去做我原本就想做、该做的事情。</p>
+<p>不过最近发现了个人觉得非常实用的GTD软件——<a href="https://www.taskpaper.com/"><strong>TaskPaper</strong></a>，配合iOS<a href="https://apps.apple.com/cn/app/taskmator-taskpaper-client/id806250172"><strong>TaskMator - TaskPaper Client</strong></a>一起使用，特别赞，还能导出到苹果自带的提醒事项。不过国内提到TaskPaper的特别少，搜到的最新文章还是几年前少数派的文章。当时买的时候我还犹豫了好一会儿，好在没让我失望，又让我找回了小时候在纸上写待办事项、清理完成事项的乐趣，每天都要看看自己的待办事项然后划掉再去睡觉才觉得安心，看到这么多完成的待办，成就感倍增。</p>
+<p>在TaskPaper官网还看到的了一款outline工具<a href="https://www.hogbaysoftware.com/bike/"><strong>Bike Outliner</strong></a>，以前没有用过outline一类的工具，发现意外得很有用，突然灵感来了，随手一记，再定期整理到Obsidian，果然这种复杂的编辑还是更喜欢纯文本。手机端目前则是使用免费的<a href="https://zavala.vincode.io/"><strong>Zavala</strong></a>，也有Mac和iPad端，支持iCloud同步，Mac端支持导出MD、PDF格式，但是编辑方面个人感觉还是Bike更为舒服，不过免费的还奢求什么呢？但是挺奇怪的是，我在手机上用Zavala编辑Bike的OPML居然不会影响到Bike的原文档，而且在Zavala创建新文档后我在iCloud中也找不到原文档。</p>
+<p>前一阵还在<a href="https://bundlehunt.com/bundle/2024-epic-utility-bundle"><strong>Bundle Hunt</strong></a>买了<a href="https://c-command.com/eaglefiler/"><strong>EagleFiler</strong></a>和<a href="https://www.witt-software.com/rockettypist/"><strong>Rocket Typist</strong></a>,只花了不到60，但是体验真的不错。EagleFIler之前就想买的，但是无奈太贵，正好赶上了促销，直接买入，非常好地满足了我的收集癖，而Rocket Typist补足了Alfred的Snippets。如果下次RT的iOS版本也搞活动就好了。</p>
+<p>今天给妈妈送行李的路上终于打开了《光环3：最后一击》，果然坐地铁的时候看书就是能看得很认真，在家看的时候看三分钟我就想玩手机。<s>争取早点看完写个总结怎么又开始挖坑了我？致远星的陨落还没写总结呢。</s></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决Python 3 SSL Certificate问题]]></title>
+        <id>https://rh10hd.github.io/post/Python 3 SSL CERTIFICATE_VERIFY_FAILED/</id>
+        <link href="https://rh10hd.github.io/post/Python 3 SSL CERTIFICATE_VERIFY_FAILED/">
+        </link>
+        <updated>2024-07-17T06:36:53.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>一句话总结：进入你的Python安装文件夹，找到Install Certificates.command双击安装即可。</p>
+</blockquote>
+<p>最近一直在捣鼓Alfred Workflow，昨天发现了一个workflow是查询<u><a href="https://github.com/xilopaint/alfred-urban-dictionary">Urban Dictionary</a></u>还蛮有用的，也不用看任何广告了，不过仍需魔法。</p>
+<p>第一次使用的时候就发生了问题，打开Alfred的Debug模式发现问题是Python 3的&quot;SSL: CERTIFICATE_VERIFY_FAILED&quot;（忘了截图了），于是上网找了各种方法，要么就是操作过于复杂，要么就是过时无法解决了。</p>
+<p>后来在<u><a href="https://blog.csdn.net/weixin_38169413/article/details/100691214">CSDN</a></u>发现一个最简单的方法，直接进Python的安装文件夹，双击Install Certificates.command即可。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721197438/obsidian/tr0mvo3dzc6fwqqpulsq.png" alt="SC" loading="lazy"><center><font size="2px">Install Certificates.command</font></center></p>
+<p>此时再试试Urban Dictionary的workflow已经可以正常使用了。Enjoy it!</p>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721196297/obsidian/xzza3cxugc1rhiagoiv0.png" alt="ud截图" loading="lazy"></figure>
+<p>不过<u><a href="https://alfred.app/workflows/giovanni/power-thesaurus/">Power thesaurus</a></u>的URL依旧拒绝了我，看了原作者的GitHub，有人遇到了跟我一样的问题，说等了24-48小时突然就能使用了，那我只能静静等待了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[战士的餐桌——朗姆酒]]></title>
+        <id>https://rh10hd.github.io/post/战士的餐桌_朗姆酒/</id>
+        <link href="https://rh10hd.github.io/post/战士的餐桌_朗姆酒/">
+        </link>
+        <updated>2024-07-16T14:59:51.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="战士的餐桌介绍">《战士的餐桌》介绍</h2>
+<figure data-type="image" tabindex="1"><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721140692/obsidian/tq4donoyin6d1gdmkjef.png" alt="《战士的餐桌》豆瓣截图" loading="lazy"></figure>
+<p>最近在读一本书<u><a href="https://book.douban.com/subject/36158482/">《战士的餐桌：二战各国战地饮食传奇》</a></u>，是微信读书推荐的，不像一般二战背景的书那么严肃，这本算是比较轻松幽默的，每次看书中的战争故事，再配上美食介绍，都颇有种苦中作乐的感觉，而且这本书的章节之间没有关联，所以根据自己感兴趣的内容按照目录找来看就可以了。不过因为我同时还在看别的书，所以这本书的进度还挺慢的。<s>（好吧，其实是因为在看《光环》）</s></p>
+<h2 id="英国篇传承勇气的纳尔逊之血-朗姆酒">英国篇：传承勇气的纳尔逊之血-朗姆酒</h2>
+<blockquote>
+<p>这一篇是我觉得比较有意思的，而且历史叙述比较长，看完有点凌乱，所以特意做了个梳理。</p>
+</blockquote>
+<p>哥伦布在第二次远航美洲时将甘蔗带到了古巴，并在加勒比主道上广泛种植，进而形成了规模可观的制糖产业。15世纪末到16世纪初，加勒比地区的制糖工人发明了朗姆酒。</p>
+<p>在16世纪时英国海军就有每日配给啤酒的习惯，而在17世纪中叶时朗姆酒进入了英国海军，衍生出了一个词叫做“朗姆配给 (rum ration)”。</p>
+<p>17世纪的一位海军中将弗农对朗姆配给制度进行了更改：调整比例和每日分配的时间，该新制度延续了200多年。因弗农非常喜欢又格罗格兰姆呢制作的外套，获得了老格罗格 (old grog)的绰号，于是水兵们将兑水的朗姆酒也称作格罗格，时至今日已经成为掺水烈酒的称呼。</p>
+<p>1824年英国海军决定将每日配给的朗姆酒分量减半。1850年进一步削减配给量。1881年军官的朗姆酒配给取消，此后只有士官和水兵能够继续享有此项配给。此外，配给士官的朗姆酒不必兑水，而供给水兵的朗姆酒必须按照弗农当年的命令掺水后来再进行分配。当然，士兵可以选择不领取朗姆酒，作为替代他可以得到每天3便士的补助，不过很少有人会放弃饮酒的快乐。</p>
+<p>1970年下议院关于是否废除“朗姆配给”引发了一场辩论，史称“朗姆酒大辩论”，最后海军部宣布同年8月1日停止已经延续了3个世纪之久的朗姆酒配给制度。</p>
+<p>尽管朗姆酒配给制度结束了，但是将朗姆酒作为奖励的这一制度延续了下来。这一制度被称作“连接主桅操桁索 (Splice the mainbrace)”。</p>
+<p>在1970年之后，只有皇室成员才有权下达“连接主桅操桁索”的命令，通常是在重大纪念日表示庆祝。</p>
+<p><img src="https://modelshipworld.com/uploads/monthly_2017_06/59386869ab9a8_MainBrace.thumb.jpg.7d26477b73e1b59fae3f3aae75d8666e.jpg" alt="Splice the mainbrace" loading="lazy"> <font size="2px">splice the mainbrace</font></p>
+<h2 id="结语">结语</h2>
+<p>这本书我到现在只看了三分之一，然后就跑去看光环了，光环的进度倒是挺快的，已经把<u><a href="https://book.douban.com/subject/1462652/">《致远星的陷落》</a></u>看完了，抽个空把这本也写一写好了。<br>
+写这篇博文的时候，我看了豆瓣评价，发现蛮多人吐槽书像微信公众号的推文集合，不过我个人还是挺喜欢的，毕竟我对军事兴趣不大，了解不深，要是真让我看军事相关的书我应该会立刻睡着。下次再写这本书估计就是我看完了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欢迎你来到虚构世界——关于游戏Figment2: Creed Valley]]></title>
+        <id>https://rh10hd.github.io/post/Figment2_Review/</id>
+        <link href="https://rh10hd.github.io/post/Figment2_Review/">
+        </link>
+        <updated>2024-07-15T11:18:03.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="intro">Intro</h2>
+<p>每个月月初和月中刷新本月的XGPU即将退库的游戏似乎是自己的固定流程了，月初的时候发现自己一直下载了却没有玩的Figment 2要退库了，查了一下<u><a href="https://howlongtobeat.com/game/99345">Howlongtobeat</a></u>，流程只要4个小时即可通关，而全成就也只需要6个小时，其他要退库的游戏我实在没多大兴趣或者早已通关（说的是你TOEM）当下就决定来试试Figment。</p>
+<h2 id="整体感受">整体感受</h2>
+<ul>
+<li>游戏整体还不错，蒂姆·波顿的画风，将背景设置在了人类的意识中，是我非常喜欢的与人类大脑、意识和灵魂相关的背景（好吧，其实我就是想到了Psychonauts 2）</li>
+<li>其实我感觉这个游戏更像是一个童话故事，和小朋友一起玩也会觉得很欢乐，制作组特意搞了个双人模式就是为了合家欢吗？</li>
+<li>游戏也很符合开发商的名字Bedtime Digital Games，我确实通关了就去睡觉了:-D</li>
+</ul>
+<h3 id="优点">优点</h3>
+<ul>
+<li>游戏难度适中，不会刻意为难玩家，解谜也很有成就感，就连BOSS战也不会很高难度；</li>
+<li>BGM非常好听！尤其是boss关卡，音乐富有激情，半夜玩的时候我都会忍不住抖腿。顺带一提，里面的角色人均会rap；</li>
+<li>本地化做得非常好，英语环境下的角色、地点名字的设定本身就非常有意也很有梗，没想到中文翻译也没有让我失望。尤其是在伦理迷宫的那几本书的翻译，翻译一绝；</li>
+<li>附带一些哲学思考（这是优点吗？姑且算吧）小鸟Piper是个非常聪明的鸟鸟，经常会有灵魂发问，她和主人公Dusty的一些对话让我觉得她更像是个人而非普通的NPC。而且Piper的戏份也不仅仅是陪衬，快到结局的时候也是发挥了自己的大作用的。</li>
+</ul>
+<h3 id="缺点">缺点</h3>
+<ul>
+<li>小公司出品，必不可免地会有一些小问题，人物动作略显僵硬，不过在我玩了1代之后，我发现2代的居然是改善过后的版本了；</li>
+<li>游戏的剧本和立意很俗套——通过男主Dusty和小鸟伙伴Piper在mind里的一系列冒险呼吁人们关心身边人、将工作时间更多地放在娱乐上；</li>
+<li>怪物太重复了，一开始非常有新鲜感，但是玩到后期就会发现，怪物来来回回只有那么几种，实在让我疲乏。</li>
+</ul>
+<h2 id="游戏截图">游戏截图</h2>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041431/obsidian/bur9wioahibwfamzubte.png" alt="野猪怪 " loading="lazy">这个是里面的一个怪物被Dusty打败后幻化的形态，忘了叫啥了，只记得原来是一头野猪。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721059375/obsidian/fmxbujk3mgcqz0bvkja8.png" alt="主人公" loading="lazy">说实话这还是我在游戏里第一次看到两位主角的样子。（左Dusty，右Piper）</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721059411/obsidian/chk5lsgxt7sus1v2ovxx.png" alt="小可怜Jester" loading="lazy">本作的最终BOSS——Jester，其实也是一个小可怜。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041970/obsidian/fzstpfdhbtjyp60r7f5u.jpg" alt="Piper小可爱" loading="lazy">我做成就收集的时候在伦理迷宫，Piper对Dusty说有没有可能我们只是别人意识中的一部分，我才发现原来Dusty和现实中的男人是互相不知道的，而玩家所做的这些事情只是Dusty与Piper的冒险，它们只是想驱赶nightmares，让自己所在的地方变回原来的样子，并不是我一开始所想的：男人的意识进入自己的大脑中探寻自己究竟发生了什么，找到原因并采取修正措施，从而恢复正常生活。我突然就在想会不会玩游戏的我也只是别人意识中的一部分？果然我对于梦境、意识、大脑、灵魂一类的东西就是完全无法抵抗。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041733/obsidian/i4ilgsmfoehj4hrqzycs.png" alt="欢乐屋" loading="lazy">Jester小可怜的屋子，这里是Dusty和Piper收拾欢乐屋。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041792/obsidian/ofxqxhae6woxmtqbobwr.png" alt="Jester看到欢乐屋" loading="lazy">结局Jester看到收拾好的欢乐屋，特别可爱。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721041916/obsidian/b7pw8lozjnmxfjifsnio.png" alt="结局Boss战" loading="lazy"><br>
+与Jester大战三百回合（其实就是跳舞三百回合）难度一点也不高，我真的太喜欢了。</p>
+<p><img src="https://res.cloudinary.com/dytqos6vx/image/upload/f_auto/v1721042061/obsidian/fx49ly3usc1abjbj0tys.png" alt="Jester在欢乐屋与意识对话" loading="lazy">Jester在欢乐屋与意识对话，而现实中的男主人也终于放下繁忙的工作，放下对房子的执念，拿上曾经非常喜欢的尤克里里和家人聚在一起。</p>
+<h2 id="结语">结语</h2>
+<ul>
+<li>制作组将背景设置为人类的大脑内部，我的每一个opinion都生活在不同的地方，它们或孤身一人，或互相吵架，有的还在活跃，有的早已被我遗忘，但是直到我遇到它们我才知道曾经的我有很多想法和爱好，却都因为繁忙的工作导致nightmares入侵，而Jester“日益壮大”。不过玩到结局会发现，其实这里面根本没有一个坏人，连Jester都是小可怜。</li>
+<li>感谢Bedtime Digital Games制造梦境，而我在这场梦境中体验了最独一无二的Nightmare。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian-Cloudinary]]></title>
+        <id>https://rh10hd.github.io/post/qLuoHTI65/</id>
+        <link href="https://rh10hd.github.io/post/qLuoHTI65/">
+        </link>
+        <updated>2024-01-10T08:51:03.000Z</updated>
+        <content type="html"><![CDATA[<p>搜了好久，终于发现一个可以优雅使用Cloudinary的<a href="https://github.com/uday-samsani/obsidian-cloudinary"><strong>插件</strong></a>，可以直接在Ob里面上传图片到Cloudinary并且返回URL。</p>
+<p>设置也很简单，只需要设置cloud name, cloud upload template和cloud upload folder就完事了。</p>
+<p>实际测试了一下，速度很快。以后就安心使用Obsidian写博客了😌不用窗口来回切换复制粘贴了。</p>
+]]></content>
+    </entry>
+</feed>
