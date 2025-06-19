@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rh10hd.github.io</id>
+    <title>2H ISLAND</title>
+    <updated>2025-06-19T05:42:46.818Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rh10hd.github.io"/>
+    <link rel="self" href="https://rh10hd.github.io/atom.xml"/>
+    <subtitle> </subtitle>
+    <logo>https://rh10hd.github.io/images/avatar.png</logo>
+    <icon>https://rh10hd.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 2H ISLAND</rights>
+    <entry>
+        <title type="html"><![CDATA[Archive]]></title>
+        <id>https://rh10hd.github.io/post/Blog_Archive/</id>
+        <link href="https://rh10hd.github.io/post/Blog_Archive/">
+        </link>
+        <updated>2025-06-04T05:45:01.000Z</updated>
+        <content type="html"><![CDATA[<p>由于很多原因，我将博客迁移到了<a href="https://2hisland.vercel.app/"><em>Digital Garden</em></a>，所以该博客进入Archive状态。</p>
+<p>迁移的具体原因和过程我都已经在新的博客po出来了：<a href="https://2hisland.vercel.app/collage/moving-out-of-gridea/"><em>Moving Out of Gridea</em></a></p>
+<p>但我仍然很喜欢Gridea，因为毕竟这是启蒙我写博客的地方，让我有个无拘无束的小天地能自说自话。</p>
+<p>总之，迎接新的开始！</p>
+<p>-rh10hd</p>
+]]></content>
+    </entry>
+</feed>
